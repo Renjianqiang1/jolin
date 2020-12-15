@@ -20,9 +20,7 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
- background-image: url(../89127.jpg) ;
+ background-image: url(../static/89127.jpg) ;
  background-size:100%;
 background-repeat:no-repeat ;
 background-attachment: fixed;
