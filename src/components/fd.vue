@@ -1,11 +1,16 @@
 <template >
     <div>
-        <p>你好我是脚</p>
+        <p>kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
     </div>
 </template>
 <script>
 export default {
-    name: 'bodyr'
+    name: 'bodyr',
+     data:function(){
+      return{
+        
+      }
+    }
 }
 </script>
 <style scoped>

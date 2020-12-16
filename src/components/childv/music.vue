@@ -1,15 +1,8 @@
 <template >
     <div>
-    
-      <div class="nav">
-        <ul>
-            <li><a href="javascript:void(0)">主页</a> </li>
-            <li><a href="javascript:void(0)">音乐</a> </li>
-            <li><a href="javascript:void(0)">mv</a> </li>
-            <li><a href="javascript:void(0)">演唱会</a> </li>
-            <li><a href="javascript:void(0)">登录</a> </li>
-        </ul>
-       </div >
+         <mhead></mhead>
+
+        <navv></navv>
        <div class="bcent">
            <div class="bleft">
                <ul>
@@ -20,16 +13,23 @@
                <div ></div>
            </div>
        </div>
-
+            
+            
+       
+     
+            
+      <fd></fd>
     </div>
 </template>
 <script>
-   export default {
-
-        
-
-    name: 'bodyr',
-    data:function(){
+import navv from '../navv'
+import mhead from '../mhead'
+import fd from '../fd' 
+import bodyr from '../bodyr'
+export default {
+      components: { mhead ,fd, bodyr,navv},
+      name:'music',
+     data:function(){
         return{
             listtb:['倒带','看我72变','大艺术家','说爱你','布拉格广场','MR.Q','柠檬草的味道','日不落','倒带','爱情36计','心型圈','招牌动作','电话皇后','我','就是爱']
 
@@ -122,5 +122,4 @@ a{
     background-color: rgb(60, 41, 105);
 }
 </style>
-
 
