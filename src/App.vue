@@ -1,13 +1,21 @@
 <template>
   <div id="app">
+    <!-- <mhead></mhead> -->
     <router-view /> 
    
   </div>
 </template>
 
 <script>
+import mhead from './components/mhead'
 export default {
-  name: 'App'
+  name: 'App',
+  data() {
+    return {
+      
+    }
+  },
+  components:{mhead}
 }
 </script>
 

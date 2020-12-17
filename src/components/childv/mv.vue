@@ -2,7 +2,7 @@
     <div>
          <mhead></mhead>
          <navv></navv>
-        <p>nihao</p>
+        <p>mvmvmvmv</p>
             
             
 
@@ -17,15 +17,16 @@ import fd from '../fd'
 import navv from '../navv'
 
 export default {
-   components: { mhead ,fd },
+   components: { mhead ,fd ,navv},
     name:'mv',
      data:function(){
-      return{
-        
-      }
-    }
+        return{
+            
+        }
+     }
 }
 </script>
 <style scope>
+
     
 </style>

@@ -8,11 +8,11 @@
             <li><a href="mv">演唱会</a> </li>
             <li><a href="/login">登录</a> </li>
         </ul> -->
-            <router-link to='/'>首页</router-link>
-            <router-link to='/music'>音乐</router-link>
-            <router-link to='/video'>视频</router-link>
-             <router-link to='/mv'>演唱会</router-link>
-             <router-link to='/login'>登录</router-link>
+            <router-link  to='/home'>首页</router-link>
+            <router-link active-class="navli" to='/music'>音乐</router-link>
+            <router-link active-class="navli" to='/videor'>视频</router-link>
+             <router-link active-class="navli" to='/mv'>演唱会</router-link>
+             <router-link active-class="navli" to='/login'>登录</router-link>
 
 
 
@@ -33,12 +33,12 @@ export default {
 <style scoped>
 div {
 height: 70px;
-background-color: #fff;
+background-color: rgba(230, 133, 116,.5);
 
 }
 a{
     text-decoration: none;
-    color: rgb(168, 19, 89);
+    color: rgb(168, 19, 89,);
 
 }
 .nav{
@@ -50,26 +50,22 @@ a{
 
 }
 
-.nav ul{
-    text-align: center;
-    border-width: 2px;
-    border-color: green;
-}
-.nav ul li{
-    display: inline-block;
-    list-style: none;
-    line-height: 80px;
-    font-size: 25px;
 
-}
-.nav ul li:hover{
+
+
+
+
+.nav a:hover{
     background-color: #888;
 
 }
-.nav ul li a{
+.nav a{
+    display: inline-block;
+    height: 70px;
+    font-size: 25px;
+    font-weight: 300px;
     text-align: center;
-    border-width: 2px;
-    border-color: green;
+    line-height: 70px;
     padding-left:80px ;  
     padding-right: 80px;
 
