@@ -8,7 +8,7 @@
             <li><a href="mv">演唱会</a> </li>
             <li><a href="/login">登录</a> </li>
         </ul> -->
-            <router-link  to='/home'>首页</router-link>
+            <router-link  to='/'>首页</router-link>
             <router-link active-class="navli" to='/music'>音乐</router-link>
             <router-link active-class="navli" to='/videor'>视频</router-link>
              <router-link active-class="navli" to='/mv'>演唱会</router-link>
