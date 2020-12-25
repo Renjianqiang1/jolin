@@ -12,7 +12,10 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "bootstrap": "^4.5.3",
     "element-ui": "^2.14.1",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
     "style-loader": "^2.0.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"

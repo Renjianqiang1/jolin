@@ -19,9 +19,9 @@
     </div>
 </template>
 <script>
-import mhead from '../mhead'
-import fd from '../fd' 
-import navv from '../navv'
+import mhead from '@/components/mhead'
+import fd from '@/components/fd' 
+import navv from '@/components/navv'
 
 export default {
     components: { mhead ,fd ,navv},
@@ -47,7 +47,7 @@ export default {
                        {url:'/static/b.jpg',conent:'我'},{url:'/static/a.jpeg',conent:'说爱你'},
                        {url:'/static/b.jpg',conent:'怪美的'},{url:'/static/a.jpeg',conent:'花蝴蝶'},
                        {url:'/static/a.jpeg',conent:'天空'},{url:'/static/a.jpeg',conent:'爱爱爱'},
-                       ]
+            ]
         }
      }
 }

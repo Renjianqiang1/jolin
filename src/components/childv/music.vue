@@ -25,7 +25,7 @@
     </div>
 </template>
 <script>
-import navv from '../navv'
+import navv from '@/components/navv'
 import mhead from '../mhead'
 import fd from '../fd' 
 import bodyr from '../bodyr'

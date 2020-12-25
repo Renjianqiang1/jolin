@@ -5,17 +5,16 @@
        <img src="/static/homejolin.jpeg" alt="jolin" >
          <div class="abstract" v-html="jolin"></div>   
         
-
-
+<p class="text-center">Center aligned text.</p>
 
       <fd></fd>
 
     </div>
 </template>
 <script>
-import mhead from '../mhead'
-import fd from '../fd' 
-import navv from '../navv'
+import mhead from '@/components/mhead'
+import fd from '@/components/fd' 
+import navv from '@/components/navv'
 
 export default {
   components: { mhead ,fd ,navv},

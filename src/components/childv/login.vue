@@ -87,9 +87,9 @@
     </div>
 </template>
 <script>
-import mhead from '../mhead'
-import fd from '../fd' 
-import navv from '../navv'
+import mhead from '@/components/mhead'
+import fd from '@/components/fd' 
+import navv from '@/components/navv'
 
 
 export default {
